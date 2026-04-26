@@ -1,0 +1,4 @@
+package state.main;
+
+public class Main {
+}
