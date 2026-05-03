@@ -6,7 +6,7 @@ public class Agentie implements IAgentie {
         this.trimiteMesaj("A aparut un discount");
     }
     public void notificaIntroducerePachet(){
-        this.notificaPachet
+        this.notificaPachet;
     }
 
 }
