@@ -1,5 +1,5 @@
 package observer.classes;
 
 public interface IClient {
-    void primeste
+    void receptioneazaMesaj(String mesaj);
 }
