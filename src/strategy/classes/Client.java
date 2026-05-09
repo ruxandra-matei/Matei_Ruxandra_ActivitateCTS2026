@@ -10,4 +10,15 @@ public class Client {
         this.modPlata = modPlata;
         this.id = id;
     }
+
+    public String getNume() {
+        return nume;
+    }
+
+    public void setModPlata(ModPlata modPlata) {
+        this.modPlata = modPlata;
+    }
+    public void plateste(double suma){
+        modPlata.plateste(this.nume, suma);
+    }
 }

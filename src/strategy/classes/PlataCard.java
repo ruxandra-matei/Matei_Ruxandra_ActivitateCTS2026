@@ -2,7 +2,8 @@ package strategy.classes;
 
 public class PlataCard implements ModPlata{
 
-    public void plateste() {
-        super();
+    @Override
+    public void plateste(String numeClient, double suma) {
+        System.out.println("Clientul "+ numeClient+" a platit cu Card suma de " + suma) ;
     }
 }
